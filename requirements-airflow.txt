@@ -1,0 +1,4 @@
+# Airflow: use a separate venv (e.g. .venv-airflow).
+# Install: pip install -r requirements-airflow.txt
+-r requirements.txt
+apache-airflow>=2.5.0,<3

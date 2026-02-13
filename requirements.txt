@@ -1,0 +1,7 @@
+# Pipeline dependencies (run_pipeline.py, run_ingestion.py)
+pandas>=2.0.0
+python-dateutil>=2.8.2
+sqlalchemy>=1.4,<3
+
+# Postgres (optional; only needed if WAREHOUSE_URL points to Postgres)
+psycopg2-binary>=2.9.9
